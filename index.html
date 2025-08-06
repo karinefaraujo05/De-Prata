@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loucas por Pratas! - Grupo VIP De Prata</title>
+    <meta name="description" content="Entre para o grupo VIP Loucas por Pratas! e tenha acesso exclusivo às novidades da De Prata, promoções especiais e atendimento personalizado.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .animate-pulse-custom {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: .5;
+            }
+        }
+        
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .btn-hover:hover {
+            transform: scale(1.05);
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #000000 100%);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen relative overflow-hidden">
+    
+    <!-- Decorative elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <!-- Sparkles -->
+        <svg class="absolute top-20 left-8 text-emerald-300 w-6 h-6 animate-pulse-custom" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M9.5 2L8.5 8.5L2 9.5L8.5 10.5L9.5 17L10.5 10.5L17 9.5L10.5 8.5L9.5 2Z"/>
+        </svg>
+        
+        <!-- Star -->
+        <svg class="absolute top-32 right-12 text-emerald-200 w-4 h-4 animate-pulse-custom" style="animation-delay: 0.3s;" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"/>
+        </svg>
+        
+        <!-- Crown -->
+        <svg class="absolute top-48 left-16 text-emerald-400 w-5 h-5 animate-pulse-custom" style="animation-delay: 0.7s;" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5Z"/>
+        </svg>
+        
+        <!-- Heart -->
+        <svg class="absolute bottom-32 right-8 text-emerald-300 w-5 h-5 animate-pulse-custom" style="animation-delay: 0.5s;" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.84 4.61A5.5 5.5 0 0 0 16.5 2.5A5.5 5.5 0 0 0 12 5.33A5.5 5.5 0 0 0 7.5 2.5A5.5 5.5 0 0 0 3.16 4.61C1.84 5.95 1.84 8.05 3.16 9.39L12 18.83L20.84 9.39C22.16 8.05 22.16 5.95 20.84 4.61Z"/>
+        </svg>
+        
+        <!-- Another Sparkle -->
+        <svg class="absolute bottom-48 left-12 text-emerald-200 w-4 h-4 animate-pulse-custom" style="animation-delay: 1s;" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M9.5 2L8.5 8.5L2 9.5L8.5 10.5L9.5 17L10.5 10.5L17 9.5L10.5 8.5L9.5 2Z"/>
+        </svg>
+    </div>
+
+    <!-- Main content -->
+    <div class="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-12 text-center">
+        
+        <!-- Logo/Brand -->
+        <div class="mb-8">
+            <div class="mb-4">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DP%20-%20LOGO%20COMPLETA%20-Ou2BVsoonIarHdJHTwgaxmHmOBZKi2.png" 
+                     alt="De Prata" 
+                     class="mx-auto h-20 md:h-24 filter brightness-0 invert"
+                     style="max-width: 200px;">
+            </div>
+            <div class="w-24 h-0.5 bg-gradient-to-r from-emerald-400 to-emerald-200 mx-auto"></div>
+        </div>
+
+        <!-- Hero text -->
+        <div class="mb-12 max-w-md">
+            <h2 class="text-2xl md:text-3xl font-light text-emerald-100 mb-4 leading-tight">
+                Bem-vinda ao
+                <span class="block font-bold text-white text-3xl md:text-4xl">Loucas por Pratas!</span>
+            </h2>
+            <p class="text-emerald-200 text-lg leading-relaxed">
+                Entre para o grupo exclusivo das apaixonadas por joias em Prata 925 e tenha acesso a benefícios imperdíveis — só para quem faz parte!
+            </p>
+        </div>
+
+        <!-- Benefits -->
+        <div class="mb-12 space-y-4 max-w-sm">
+            <div class="flex items-center space-x-3 text-emerald-100">
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <span class="text-sm"><strong>Acesso antecipado</strong> as peças mais desejadas</span>
+            </div>
+            <div class="flex items-center space-x-3 text-emerald-100">
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <span class="text-sm"><strong> Descontos exclusivos</strong> só para o grupo </span>
+            </div>
+            <div class="flex items-center space-x-3 text-emerald-100">
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <span class="text-sm"><strong>Atendimento VIP</strong> com consultoria personalizada</span>
+            </div>
+            <div class="flex items-center space-x-3 text-emerald-100">
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <span class="text-sm"> <strong>Dicas</strong> para valorizar ainda mais suas peças</span>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
+        <button onclick="openWhatsApp()" 
+                class="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-semibold py-4 px-8 rounded-full text-lg shadow-2xl btn-hover transition-all duration-300 mb-8 flex items-center justify-center mx-auto">
+            🔥 Quero entrar no grupo!
+        </button>
+
+        <!-- Trust indicators -->
+        <div class="text-center">
+            <p class="text-emerald-300 text-sm mb-2">
+                ✨ Já somos mais de 400 mulheres apaixonadas por brilho, estilo e autenticidade!
+            </p>
+        </div>
+    </div>
+
+    <!-- Bottom decoration -->
+    <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+    <script>
+        function openWhatsApp() {
+            const whatsappUrl = `https://chat.whatsapp.com/BmVQWjbdTHPLhlZx031jWR`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
