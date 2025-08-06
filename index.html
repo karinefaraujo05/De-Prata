@@ -12,10 +12,21 @@
   <meta property="og:type" content="website">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
     body {
-      font-family: 'Inter', sans-serif;
+        font-family: 'Work Sans', sans-serif;
     }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+        letter-spacing: -0.015em;
+    }
+
+    p, span, li, button {
+        font-weight: 400;
+    }
+
     .animate-pulse-custom {
       animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     }
@@ -148,41 +159,42 @@
 
     <div>
       <h2 class="text-2xl md:text-3xl font-light text-emerald-100 mb-4 leading-snug tracking-tight">
-        Bem-vinda ao
+        Junte-se as
         <span class="block font-bold text-3xl md:text-5xl leading-tight" style="color: #ffffff;">
             Loucas por Pratas
         </span>
       </h2>
     </div>
     <div class="mb-6 max-w-md">
-      <p class="text-emerald-200 text-lg leading-relaxed italic">
+      <p class="text-emerald-200 text-lg leading-relaxed italic tracking-tight">
         Sofisticação e exclusividade em cada detalhe. Peças únicas para mulheres que brilham com autenticidade!
       </p>
     </div>
 
     <div class="mb-8 space-y-4 max-w-sm">
       <div class="flex items-start space-x-3 text-emerald-100">
-        <div class="w-2 h-2 bg-emerald-400 rounded-full mt-1.5 animate-pulse-custom"></div>
+        <div class="w-2 h-2 bg-emerald-300 rounded-full mt-1.5 animate-pulse-custom"></div>
         <span class="text-sm leading-snug"><strong>Acesso antecipado</strong> às peças mais desejadas</span>
       </div>
       <div class="flex items-start space-x-3 text-emerald-100">
-        <div class="w-2 h-2 bg-emerald-400 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.3s;"></div>
+        <div class="w-2 h-2 bg-emerald-300 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.3s;"></div>
         <span class="text-sm leading-snug"><strong>Descontos exclusivos</strong> só para o grupo</span>
       </div>
       <div class="flex items-start space-x-3 text-emerald-100">
-        <div class="w-2 h-2 bg-emerald-400 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.6s;"></div>
+        <div class="w-2 h-2 bg-emerald-300 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.6s;"></div>
         <span class="text-sm leading-snug"><strong>Curadoria Personalizada</strong> baseada no seu estilo</span>
       </div>
       <div class="flex items-start space-x-3 text-emerald-100">
-        <div class="w-2 h-2 bg-emerald-400 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.9s;"></div>
+        <div class="w-2 h-2 bg-emerald-300 rounded-full mt-1.5 animate-pulse-custom" style="animation-delay: 0.9s;"></div>
         <span class="text-sm leading-snug"><strong>Dicas</strong> para valorizar ainda mais suas peças</span>
       </div>
     </div>
 
-    <button onclick="openWhatsApp()"
-            class="animate-float bg-gradient-to-r from-emerald-300 to-emerald-300 hover:from-emerald-500 hover:to-emerald-400 text-white font-medium py-4 px-10 rounded-full text-[17px] shadow-md transition-all duration-300 mb-8 flex items-center justify-center mx-auto tracking-tight">
-      🔥 Quero entrar no grupo!
-    </button>
+        <button onclick="openWhatsApp()"
+                class="animate-float bg-[#f497b6] hover:bg-[#f2709c] text-white font-semibold py-4 px-10 rounded-full text-[17px] shadow-lg transition-all duration-300 mb-8 flex items-center justify-center mx-auto tracking-tight">
+         💖 Entrar no Grupo VIP agora!
+        </button>
+
 
     <div class="text-center">
       <p class="text-emerald-200 text-sm mb-2 italic">
